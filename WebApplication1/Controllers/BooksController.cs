@@ -8,9 +8,9 @@ namespace WebApplication1.Controllers
     public class BooksController: ControllerBase
     {
         private Book[] _books = new Book[]{
-            new Book {Id=1, Author="1", Title="1"},
-            new Book {Id=2, Author="2", Title="2"},
-            new Book {Id=3, Author="3", Title="3"}
+            new Book {Id=1, Author="Author1", Title="Its a anice book title 1"},
+            new Book {Id=2, Author="Author2", Title="Just another title 2"},
+            new Book {Id=3, Author="Author3", Title="Super-diper book title 3"}
         };
 
         [HttpGet]
